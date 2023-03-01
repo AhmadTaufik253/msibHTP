@@ -1,0 +1,7 @@
+ini adalah rincian materi terbaru
+1. html dan css
+2. github
+3. js
+4. MySQL
+5. PHP
+6. Laravel
