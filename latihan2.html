@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="css/style.css">
+    <title>Latihan Table</title>
+  </head>
+  <body>
+    <!-- membuat table -->
+    <h2 align="center">Daftar Belanja Maret</h2>
+    <table cellspacing="2" width="800px" align="center" cellpadding="2" border="1">
+      <thead>
+        <tr>
+          <th>No</th>
+          <th>Nama Barang</th>
+          <th>Unit</th>
+          <th>Harga</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td>1</td>
+          <td>Sabun</td>
+          <td>2</td>
+          <td>Rp. 6000</td>
+        </tr>
+        <tr>
+          <td>2</td>
+          <td>Pasta Gigi</td>
+          <td>1</td>
+          <td>Rp. 7000</td>
+        </tr>
+        <tr>
+          <td>3</td>
+          <td>Shampo</td>
+          <td>1</td>
+          <td>Rp. 7000</td>
+        </tr>
+      </tbody>
+      <tfoot>
+        <tr>
+          <td colspan="3" align="center">Total Harga</td>
+          <td>Rp. 20.000</td>
+        </tr>
+      </tfoot>
+    </table>
+    <br />
+    <h2 align="center">Table dengan colspan</h2>
+    <table border="1" align="center">
+      <tr>
+        <td colspan="2">isi sel 1 & 2</td>
+        <td>isi sel 3</td>
+      </tr>
+      <tr>
+        <td>isi sel 4</td>
+        <td>isi sel 5</td>
+        <td>isi sel 6</td>
+      </tr>
+    </table>
+    <br />
+    <h2 align="center">Table dengan rowspan</h2>
+    <head></head>
+    <table border="1" align="center">
+      <tr>
+        <td rowspan="2">isi sel 1&4</td>
+        <td>isi sel 2</td>
+        <td>isi sel 3</td>
+      </tr>
+      <tr>
+        <td>isi sel 5</td>
+        <td>isi sel 6</td>
+      </tr>
+    </table>
+  </body>
+</html>

@@ -1,0 +1,51 @@
+p {
+  color: gold;
+  text-align: justify;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  font-size: 12pt;
+}
+body {
+  background-image: url("/img/dark-wallpapers.jpg");
+}
+fieldset,
+legend {
+  border: 1px solid gold;
+  border-radius: 5px;
+}
+fieldset {
+  color: gold;
+}
+legend {
+  color: gold;
+  padding: 8px;
+}
+h1 {
+  color: gold;
+}
+#menu {
+  text-align: center;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  padding: 10px;
+}
+/* #menu a:hover {
+  color: white;
+} */
+a.item:link,
+a.item:visited,
+a.item:active {
+  text-decoration: none;
+  font-size: 13pt;
+  color: gold;
+  border: 2px solid gold;
+  padding: 5px;
+}
+a.item:hover {
+  color: black;
+  font-size: 10pt;
+  border: 2px solid black;
+  padding: 5px;
+  background-color: gold;
+}
+li.menu{
+    color: gold;
+}

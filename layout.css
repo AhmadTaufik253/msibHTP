@@ -1,0 +1,81 @@
+/* universal CSS */
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+}
+.header {
+  background-color: aqua;
+  padding: 20px;
+  text-align: center;
+}
+.topnav {
+  overflow: hidden;
+  background-color: black;
+  display: flex;
+  justify-content: center;
+  padding: 5px;
+}
+
+.topnav a {
+  float: left;
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+.topnav a:hover {
+  background-color: white;
+  color: black;
+  border-radius: 5px;
+}
+
+.kolom1 {
+  float: left;
+  padding: 10px;
+}
+
+.kolom1.side {
+  width: 25%;
+  background-color: antiquewhite;
+}
+
+.kolom1.middle {
+  width: 50%;
+  background-color: violet;
+  padding-left: 50px;
+}
+
+.row::after {
+  content: "";
+  display: table;
+  clear: both; /*membersihkan float left sebelumnya */
+}
+
+.footer {
+  background-color: moccasin;
+  text-align: center;
+  padding: 10px;
+  width: 100%;
+  position: absolute;
+}
+
+/* .container {
+  display: flex;
+} */
+
+/* .sidebar {
+  background-color: aquamarine;
+  width: 30%;
+  padding-left: 10px;
+}
+
+.content {
+  background-color: burlywood;
+  width: 70%;
+  padding-left: 10px;
+} */
