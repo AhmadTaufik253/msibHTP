@@ -4,115 +4,87 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Tentang kami</title>
-    <link rel="stylesheet" href="css/style.css" />
-    <!-- <style>
-      p {
-        color: white;
-        text-align: justify;
-        font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
-        font-size: 15pt;
-        text-transform: uppercase;
-      }
-      body {
-        background-color: #a7dbd8;
-      }
-      fieldset {
-        border: 3px solid;
-      }
-      .warna{
-        color: orange;
-      }
-    </style> -->
+    <title>Tugas 1</title>
   </head>
-  <body>
-    <table>
-      <thead>
-        <tr>
-          <td>
-            <fieldset>
-              <legend>Link</legend>
-              <div id="menu">
-                <a class="item" href="latihan1.html">Home</a>
-                <a class="item" href="latihan3.html">Table</a>
-                <a class="item" href="tugas1_Ahmad Taufik Aurahman_Universitas Budi Luhur_Ahmad Fathan Syakir/tugas1.html" target="_blank">Biodata</a>
-                <!-- <ul>
-                  <li><a href="latihan1.html">Home</a></li>
-                  <li><a href="latihan3.html">Table</a></li>
-                  <li><a href="tugas1_Ahmad Taufik Aurahman_Universitas Budi Luhur_Ahmad Fathan Syakir/tugas1.html" target="_blank">Biodata</a></li>
-                </ul> -->
-              </div>
-            </fieldset>
-          </td>
-        </tr>
-      </thead>
-      <tbody>
-        <tr>
-          <td>
-            <!-- membuat marquee pada h1 -->
-            <h1 align="center">
-              <marquee class="warna" behavior="" direction="">Welcome To My Landing Page</marquee>
-            </h1>
+  <body bgcolor="#4ABDAC">
+    <!-- menambahkan tag h1 dan membuatnya bergerak menggunakan tag marquee -->
+    <h1 align="center">
+      <marquee behavior="" direction="">Welcome To My Website</marquee>
+    </h1>
 
-            <!-- contoh paragraph -->
-            <p align="justify">
-              <!-- memanggil foto dari internet -->
-              <img src="https://st.depositphotos.com/13108546/55033/i/600/depositphotos_550336014-stock-photo-portrait-businessman-in-a-blue.jpg" alt="" width="320" height="220" hspace="10" />
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatibus eos facilis tenetur deleniti sunt, nulla provident aperiam. Magnam blanditiis nam recusandae consectetur! Magnam aliquid vitae voluptas quae illo ea
-              quaerat.
-            </p>
+    <!-- menambahkan foto -->
+    <!-- <img src="123.jpg" alt="" width="110" /> -->
+    <img src="https://st.depositphotos.com/13108546/55033/i/600/depositphotos_550336014-stock-photo-portrait-businessman-in-a-blue.jpg" alt="" width="220" />
 
-            <p style="color: gld; text-align: center; font-family: 'Courier New', Courier, monospace">
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatibus eos facilis tenetur deleniti sunt, nulla provident aperiam. Magnam blanditiis nam recusandae consectetur! Magnam aliquid vitae voluptas quae illo ea
-              quaerat.
-            </p>
-            <p>
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatibus eos facilis tenetur deleniti sunt, nulla provident aperiam. Magnam blanditiis nam recusandae consectetur! Magnam aliquid vitae voluptas quae illo ea
-              quaerat.
-            </p>
+    <!-- menambahkan paragraph dan didalamnya terdapat tag font dan atribut size untuk mengatur size font -->
+    <p>
+      <font size="4"> Halo, perkenalkan nama saya Ahmad Taufik Aurahman. Saya adalah mahasiswa teknik informatika semester 6 di universitas budi luhur. Saat ini saya sedang melaksanakan studi independen di PT. Hendevane Indonesia.</font>
+    </p>
 
-            <!-- contoh fieldset -->
-            <fieldset>
-              <legend>
-                <font size="5" face="calibri"> Tentang Saya </font>
-              </legend>
-              <ol type="A">
-                <li>
-                  pendidikan
-                  <ul type="square">
-                    <li class="menu">SD</li>
-                    <li class="menu">SMP</li>
-                    <li class="menu">SMK</li>
-                    <li class="menu">
-                      Universitas
-                      <ol type="1">
-                        <li>Semester 1</li>
-                        <li>Semester 2</li>
-                        <li>Semester 3</li>
-                      </ol>
-                    </li>
-                  </ul>
-                </li>
-                <li>
-                  Hobby
-                  <ul type="circle">
-                    <li>Olahraga</li>
-                    <li>Menulis</li>
-                    <li>Membaca</li>
-                  </ul>
-                </li>
-                <li>
-                  Makanan Favorit
-                  <ul type="disc">
-                    <li>Nasi Goreng</li>
-                    <li>Ayam Bakar</li>
-                  </ul>
-                </li>
-              </ol>
-            </fieldset>
-          </td>
-        </tr>
-      </tbody>
+    <!-- Menambahkan table -->
+    <table border="1" cellpadding="4">
+      <tr>
+        <th>Nama</th>
+        <th>Semester</th>
+        <th>Prodi</th>
+        <th>Fakultas</th>
+        <th>Kampus</th>
+        <th>Alamat</th>
+      </tr>
+      <tr>
+        <td align="center">Ahmad Taufik Aurahman</td>
+        <td align="center">6</td>
+        <td align="center">Teknik Informatika</td>
+        <td align="center">Fakultas Teknologi Informasi</td>
+        <td align="center">Universitas Budi Luhur</td>
+        <td align="center">Tangerang Selatan</td>
+      </tr>
     </table>
+    <br />
+
+    <!-- membuat fieldset -->
+    <fieldset>
+      <legend>
+        <font size="5">Tentang Saya</font>
+      </legend>
+      <ol type="A">
+        <li>
+          pendidikan
+          <ol type="disc">
+            <li>
+              SMK
+              <ul type="disc">
+                <li>SMKN 2 Tangerang Selatan</li>
+              </ul>
+            </li>
+            <li>
+              Universitas
+              <ul type="disc">
+                <li>Universitas Budi Luhur</li>
+              </ul>
+            </li>
+          </ol>
+        </li>
+        <li>
+          Hobby
+          <ul type="disc">
+            <li>Olahraga</li>
+            <li>Membaca</li>
+          </ul>
+        </li>
+        <li>
+          Makanan Favorit
+          <ul type="disc">
+            <li>Nasi Goreng</li>
+            <li>Ayam Bakar</li>
+            <li>Pecel Ayam</li>
+          </ul>
+        </li>
+      </ol>
+    </fieldset>
+    <br />
+
+    <!-- audio -->
+    <audio controls src="audio/videoplayback.mp3"></audio>
   </body>
 </html>
